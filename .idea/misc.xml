@@ -5,8 +5,8 @@
       <map>
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/activity_main.xml" value="0.19293478260869565" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_face.xml" value="0.151268115942029" />
-        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_new_account.xml" value="0.15894039735099338" />
-        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_sign_in.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_new_account.xml" value="0.1" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_welcome.xml" value="0.19293478260869565" />
       </map>
     </option>

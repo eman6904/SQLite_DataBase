@@ -22,26 +22,35 @@ class Sign_In : Fragment(R.layout.fragment_sign_in) {
         //to hide action bar
         val activity = activity as MainActivity
         activity.supportActionBar?.hide()
-      binding.signIn.setOnClickListener()
-      {
-          val db=MyDataBase(requireContext(),"firstdatabase",null,1)
-          val name=binding.name.text.toString()
-          val password=binding.pass.text.toString()
-         var list=ArrayList<table>()
-          list=db.search_in_table("name",name)
-          var c=0
-          if(list.size==0) {
-              c++
-              binding.text1.text = "Invalid Name"
-          }
-          list.clear()
-          list=db.search_in_table("password",password)
-          if(list.size==0) {
-              c++
-              binding.text2.text = "Invalid password"
-          }
-          if(c==0)
-              navController.navigate(R.id.action_sign_In_to_welcome)
-      }
+        binding.signIn.setOnClickListener()
+        {
+            val db = MyDataBase(requireContext(), "firstdatabase", null, 1)
+            val name = binding.name.text.toString()
+            val password = binding.pass.text.toString()
+            binding.name.setOnClickListener()
+            { binding.text1.text = "" }
+            binding.pass.setOnClickListener()
+            { binding.text2.text = "" }
+            var list = ArrayList<table>()
+            list = db.search_in_table("name", name)
+            var c = 0
+            if (list.size == 0) {
+                c++
+                binding.text1.text = "Invalid Name"
+                binding.name.text.clear()
+            } else
+                binding.text1.text = ""
+            list.clear()
+            list = db.search_in_table("password", password)
+            if (list.size == 0) {
+                c++
+                binding.text2.text = "Invalid password"
+                binding.pass.text.clear()
+            } else
+                binding.text2.text = ""
+            if (c == 0) {
+                navController.navigate(R.id.action_sign_In_to_welcome)
+            }
+        }
     }
 }

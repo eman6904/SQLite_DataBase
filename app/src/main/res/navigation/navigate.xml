@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate"
+    app:startDestination="@id/faceFragment">
+
+    <fragment
+        android:id="@+id/faceFragment"
+        android:name="com.example.sqlite_database.FaceFragment"
+        android:label="fragment_face"
+        tools:layout="@layout/fragment_face" >
+        <action
+            android:id="@+id/action_faceFragment_to_newAccount"
+            app:destination="@id/newAccount" />
+        <action
+            android:id="@+id/action_faceFragment_to_sign_In"
+            app:destination="@id/sign_In" />
+    </fragment>
+    <fragment
+        android:id="@+id/newAccount"
+        android:name="com.example.sqlite_database.NewAccount"
+        android:label="fragment_new_account"
+        tools:layout="@layout/fragment_new_account" />
+    <fragment
+        android:id="@+id/sign_In"
+        android:name="com.example.sqlite_database.Sign_In"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_sign_In_to_welcome"
+            app:destination="@id/welcome" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.example.sqlite_database.Welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+</navigation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#453216"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".NewAccount">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_9sdp"
+            android:textColor="#4A2F05"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:hint="@string/enter_name"
+            android:textSize="@dimen/_15sdp"
+            android:textColorHint="#B1884C"
+            android:background="#F3E1C7"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_100sdp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_9sdp"
+            android:textColor="#4A2F05"
+            android:textStyle="bold"
+            android:background="#F3E1C7"
+            android:gravity="left"
+            android:hint="@string/enter_password"
+            android:textColorHint="#B1884C"
+            android:textSize="@dimen/_15sdp"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:background="#39270E"
+        android:text="Create" />
+</LinearLayout>

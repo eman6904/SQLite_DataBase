@@ -3,33 +3,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_gravity="center"
     android:background="#F3E1C7"
     android:gravity="center"
-    tools:context=".FaceFragment">
+    android:orientation="vertical"
+    tools:context=".ui.FaceFragment">
 
 
     <TextView
-        android:id="@+id/sign_In"
+        android:id="@+id/signIn"
         android:layout_width="@dimen/_190sdp"
         android:layout_height="@dimen/_50sdp"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="bold"
-        android:background="#5C3D0F"
-        android:textColor="#ffff"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
         android:gravity="center"
-        android:layout_marginBottom="@dimen/_60sdp"
-        android:text="sign in" />
+        android:text="Sign In"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/newAccount"
         android:layout_width="@dimen/_190sdp"
         android:layout_height="@dimen/_50sdp"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
         android:gravity="center"
+        android:text="New Account"
         android:textColor="#ffff"
-        android:background="#5C3D0F"
-        android:text="new account" />
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Update"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Delete"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PrintData"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Print Data"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AccountsNumber"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Accounts Number"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
 </LinearLayout>

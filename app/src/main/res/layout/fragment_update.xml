@@ -6,11 +6,39 @@
     android:background="#453216"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ui.SignIn">
+    tools:context=".ui.Update">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="@dimen/_100sdp"
         android:layout_marginTop="@dimen/_80sdp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_9sdp"
+            android:textColor="#4A2F05"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:hint="Enter ID "
+            android:textSize="@dimen/_15sdp"
+            android:textColorHint="#B1884C"
+            android:background="#F3E1C7"
+            android:text="" />
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:textColor="#E40D0D"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:text=" " />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_100sdp"
         android:orientation="vertical">
         <EditText
             android:id="@+id/name"
@@ -19,14 +47,14 @@
             android:padding="@dimen/_9sdp"
             android:textColor="#4A2F05"
             android:textStyle="bold"
-            android:gravity="left"
-            android:hint="@string/enter_your_name"
-            android:textSize="@dimen/_15sdp"
-            android:textColorHint="#B1884C"
             android:background="#F3E1C7"
+            android:hint="Enter New Name"
+            android:textColorHint="#B1884C"
+            android:gravity="left"
+            android:textSize="@dimen/_15sdp"
             android:text="" />
         <TextView
-            android:id="@+id/text1"
+            android:id="@+id/textName"
             android:layout_width="@dimen/_230sdp"
             android:layout_height="@dimen/_40sdp"
             android:textColor="#E40D0D"
@@ -47,13 +75,13 @@
             android:textColor="#4A2F05"
             android:textStyle="bold"
             android:background="#F3E1C7"
-            android:hint="@string/enter_your_password"
+            android:hint="Enter New Password"
             android:textColorHint="#B1884C"
             android:gravity="left"
             android:textSize="@dimen/_15sdp"
             android:text="" />
         <TextView
-            android:id="@+id/text2"
+            android:id="@+id/textPass"
             android:layout_width="@dimen/_230sdp"
             android:layout_height="@dimen/_40sdp"
             android:textColor="#E40D0D"
@@ -64,7 +92,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/sign_In"
+        android:id="@+id/update"
         android:layout_width="@dimen/_110sdp"
         android:layout_height="@dimen/_45sdp"
         android:gravity="center"
@@ -72,5 +100,5 @@
         android:textStyle="bold"
         android:textSize="@dimen/_20sdp"
         android:background="#39270E"
-        android:text="@string/sign_in" />
+        android:text="Update" />
 </LinearLayout>

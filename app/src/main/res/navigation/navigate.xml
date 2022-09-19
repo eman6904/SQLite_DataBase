@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/faceFragment"
-        android:name="com.example.sqlite_database.FaceFragment"
+        android:name="com.example.sqlite_database.ui.FaceFragment"
         android:label="fragment_face"
         tools:layout="@layout/fragment_face" >
         <action
@@ -16,15 +16,27 @@
         <action
             android:id="@+id/action_faceFragment_to_sign_In"
             app:destination="@id/sign_In" />
+        <action
+            android:id="@+id/action_faceFragment_to_printData"
+            app:destination="@id/printData" />
+        <action
+            android:id="@+id/action_faceFragment_to_update2"
+            app:destination="@id/update2" />
+        <action
+            android:id="@+id/action_faceFragment_to_delete"
+            app:destination="@id/delete" />
+        <action
+            android:id="@+id/action_faceFragment_to_welcome"
+            app:destination="@id/welcome" />
     </fragment>
     <fragment
         android:id="@+id/newAccount"
-        android:name="com.example.sqlite_database.NewAccount"
+        android:name="com.example.sqlite_database.ui.NewAccount"
         android:label="fragment_new_account"
         tools:layout="@layout/fragment_new_account" />
     <fragment
         android:id="@+id/sign_In"
-        android:name="com.example.sqlite_database.Sign_In"
+        android:name="com.example.sqlite_database.ui.SignIn"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -33,7 +45,21 @@
     </fragment>
     <fragment
         android:id="@+id/welcome"
-        android:name="com.example.sqlite_database.Welcome"
+        android:name="com.example.sqlite_database.ui.Welcome"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/printData"
+        android:name="com.example.sqlite_database.ui.PrintData"
+        android:label="PrintData" />
+    <fragment
+        android:id="@+id/update2"
+        android:name="com.example.sqlite_database.ui.Update"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" />
+    <fragment
+        android:id="@+id/delete"
+        android:name="com.example.sqlite_database.ui.Delete"
+        android:label="fragment_delete"
+        tools:layout="@layout/fragment_delete" />
 </navigation>

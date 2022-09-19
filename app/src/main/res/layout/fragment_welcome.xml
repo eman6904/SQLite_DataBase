@@ -7,9 +7,10 @@
     android:layout_gravity="center"
     android:background="#453216"
     android:gravity="center"
-    tools:context=".Welcome">
+    tools:context=".ui.Welcome">
 
     <TextView
+        android:id="@+id/wl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_25sdp"

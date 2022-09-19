@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#503713"
+    android:padding="@dimen/_9sdp"
+    android:gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#EFD073"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/entername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17sdp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="200dp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#F1CE66"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/enterpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17sdp"
+       android:textColor="#ffff"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="237dp" />
+</LinearLayout>
+</LinearLayout>

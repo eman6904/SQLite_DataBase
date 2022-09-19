@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/activity_main.xml" value="0.19293478260869565" />
-        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_face.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_delete.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_face.xml" value="0.1" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_new_account.xml" value="0.1" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_print_data.xml" value="0.1160081053698075" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_update.xml" value="0.19293478260869565" />
         <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/fragment_welcome.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/CS/AndroidStudioProjects/SQLite_DataBase/app/src/main/res/layout/recordmodel.xml" value="0.176" />
       </map>
     </option>
   </component>

@@ -1,4 +1,4 @@
-package com.example.sqlite_database
+package com.example.sqlite_database.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

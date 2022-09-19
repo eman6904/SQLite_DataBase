@@ -6,47 +6,38 @@
     android:background="#453216"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ui.NewAccount">
+    tools:context=".ui.Delete">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="@dimen/_100sdp"
         android:layout_marginTop="@dimen/_80sdp"
         android:orientation="vertical">
         <EditText
-            android:id="@+id/name"
+            android:id="@+id/id"
             android:layout_width="@dimen/_230sdp"
             android:layout_height="@dimen/_40sdp"
             android:padding="@dimen/_9sdp"
             android:textColor="#4A2F05"
             android:textStyle="bold"
             android:gravity="left"
-            android:hint="@string/enter_name"
+            android:hint="Enter ID "
             android:textSize="@dimen/_15sdp"
             android:textColorHint="#B1884C"
             android:background="#F3E1C7"
             android:text="" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/_100sdp"
-        android:orientation="vertical">
-        <EditText
-            android:id="@+id/pass"
+        <TextView
+            android:id="@+id/textId"
             android:layout_width="@dimen/_230sdp"
             android:layout_height="@dimen/_40sdp"
-            android:padding="@dimen/_9sdp"
-            android:textColor="#4A2F05"
+            android:textColor="#E40D0D"
             android:textStyle="bold"
-            android:background="#F3E1C7"
-            android:gravity="left"
-            android:hint="@string/enter_password"
-            android:textColorHint="#B1884C"
             android:textSize="@dimen/_15sdp"
-            android:text="" />
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:text=" " />
     </LinearLayout>
-
     <TextView
-        android:id="@+id/Create"
+        android:id="@+id/delete"
         android:layout_width="@dimen/_110sdp"
         android:layout_height="@dimen/_45sdp"
         android:gravity="center"
@@ -54,5 +45,5 @@
         android:textStyle="bold"
         android:textSize="@dimen/_20sdp"
         android:background="#39270E"
-        android:text="Create" />
+        android:text="Delete" />
 </LinearLayout>
